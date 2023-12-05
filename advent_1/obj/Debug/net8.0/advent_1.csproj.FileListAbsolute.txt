@@ -1,0 +1,14 @@
+C:\Users\zach.larsen\source\repos\advent_1\bin\Debug\net8.0\advent_1.exe
+C:\Users\zach.larsen\source\repos\advent_1\bin\Debug\net8.0\advent_1.deps.json
+C:\Users\zach.larsen\source\repos\advent_1\bin\Debug\net8.0\advent_1.runtimeconfig.json
+C:\Users\zach.larsen\source\repos\advent_1\bin\Debug\net8.0\advent_1.dll
+C:\Users\zach.larsen\source\repos\advent_1\bin\Debug\net8.0\advent_1.pdb
+C:\Users\zach.larsen\source\repos\advent_1\obj\Debug\net8.0\advent_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zach.larsen\source\repos\advent_1\obj\Debug\net8.0\advent_1.AssemblyInfoInputs.cache
+C:\Users\zach.larsen\source\repos\advent_1\obj\Debug\net8.0\advent_1.AssemblyInfo.cs
+C:\Users\zach.larsen\source\repos\advent_1\obj\Debug\net8.0\advent_1.csproj.CoreCompileInputs.cache
+C:\Users\zach.larsen\source\repos\advent_1\obj\Debug\net8.0\advent_1.dll
+C:\Users\zach.larsen\source\repos\advent_1\obj\Debug\net8.0\refint\advent_1.dll
+C:\Users\zach.larsen\source\repos\advent_1\obj\Debug\net8.0\advent_1.pdb
+C:\Users\zach.larsen\source\repos\advent_1\obj\Debug\net8.0\advent_1.genruntimeconfig.cache
+C:\Users\zach.larsen\source\repos\advent_1\obj\Debug\net8.0\ref\advent_1.dll
