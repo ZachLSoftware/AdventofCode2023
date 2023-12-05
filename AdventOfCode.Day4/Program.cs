@@ -6,7 +6,7 @@ namespace AdventOfCode.Day4
     {
         static void Main(string[] args)
         {
-            string input = File.ReadAllText(@"C:\Users\zach.larsen\source\repos\AdventOfCode.Day4\input.txt");
+            string input = File.ReadAllText(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent + "\\test.txt");
             Day4Solution solution = new Day4Solution(input);
             Console.WriteLine(solution.PartTwo());
 

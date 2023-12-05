@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zach.larsen\\source\\repos\\AdventOfCode.2023.Day3\\AdventOfCode.2023.Day3.csproj",
+      "projectUniqueName": "C:\\Users\\zach.larsen\\source\\repos\\AdventOfCode.2023\\AdventOfCode.2023.Day3\\AdventOfCode.2023.Day3.csproj",
       "projectName": "AdventOfCode.2023.Day3",
-      "projectPath": "C:\\Users\\zach.larsen\\source\\repos\\AdventOfCode.2023.Day3\\AdventOfCode.2023.Day3.csproj",
+      "projectPath": "C:\\Users\\zach.larsen\\source\\repos\\AdventOfCode.2023\\AdventOfCode.2023.Day3\\AdventOfCode.2023.Day3.csproj",
       "packagesPath": "C:\\Users\\zach.larsen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zach.larsen\\source\\repos\\AdventOfCode.2023.Day3\\obj\\",
+      "outputPath": "C:\\Users\\zach.larsen\\source\\repos\\AdventOfCode.2023\\AdventOfCode.2023.Day3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

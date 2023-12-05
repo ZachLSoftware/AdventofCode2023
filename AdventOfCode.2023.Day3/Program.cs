@@ -7,7 +7,7 @@ namespace AdventOfCode._2023.Day3
     {
         static void Main(string[] args)
         {
-            string input = File.ReadAllText(@"C:\Users\zach.larsen\source\repos\AdventOfCode.2023.Day3\input.txt");
+            string input = File.ReadAllText(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent + "\\test.txt");
 
             Day3Solution solution = new Day3Solution(input);
             Console.WriteLine(solution.PartTwo());

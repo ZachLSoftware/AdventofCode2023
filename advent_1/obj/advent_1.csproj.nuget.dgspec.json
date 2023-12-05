@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zach.larsen\\source\\repos\\advent_1\\advent_1.csproj": {}
+    "C:\\Users\\zach.larsen\\source\\repos\\AdventOfCode.2023\\advent_1\\advent_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zach.larsen\\source\\repos\\advent_1\\advent_1.csproj": {
+    "C:\\Users\\zach.larsen\\source\\repos\\AdventOfCode.2023\\advent_1\\advent_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zach.larsen\\source\\repos\\advent_1\\advent_1.csproj",
+        "projectUniqueName": "C:\\Users\\zach.larsen\\source\\repos\\AdventOfCode.2023\\advent_1\\advent_1.csproj",
         "projectName": "advent_1",
-        "projectPath": "C:\\Users\\zach.larsen\\source\\repos\\advent_1\\advent_1.csproj",
+        "projectPath": "C:\\Users\\zach.larsen\\source\\repos\\AdventOfCode.2023\\advent_1\\advent_1.csproj",
         "packagesPath": "C:\\Users\\zach.larsen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zach.larsen\\source\\repos\\advent_1\\obj\\",
+        "outputPath": "C:\\Users\\zach.larsen\\source\\repos\\AdventOfCode.2023\\advent_1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

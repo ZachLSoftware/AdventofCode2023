@@ -7,7 +7,7 @@ namespace AdventOfCode.Y2023
 
         static void Main(string[] args)
         {
-            string input = File.ReadAllText(@"C:\Users\zach.larsen\source\repos\AdventOfCode\input.txt");
+            string input = File.ReadAllText(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent + "\\test.txt");
             Solution solution = new Solution(input, 13, 14, 12);
             Console.WriteLine(solution.PartOne());
         }

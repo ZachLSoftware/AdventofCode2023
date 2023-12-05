@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ymeJ/9NlJUimM5W3Q4XYIHotqxGtoGxcqp1+BOgWAeNWwqCdbwb6kHmo66cgVyx6aGwotVmTUDf48YSlAYZ2hA==",
+  "dgSpecHash": "oUfn3nVkqOWjDxx5Z7nd8dy3VlNHqdYDxl+v7Cs11orPHAjAbRWSKvN2W+FgYVWb6h/k4GAeU1jIXVrUNSVdKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zach.larsen\\source\\repos\\AdventOfCode\\AdventOfCode.csproj",
+  "projectFilePath": "C:\\Users\\zach.larsen\\source\\repos\\AdventOfCode.2023\\AdventOfCode\\AdventOfCode.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

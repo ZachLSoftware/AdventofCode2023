@@ -16,7 +16,7 @@ namespace advent_1
                 string line;
                 try
                 {
-                    StreamReader sr = new StreamReader("C:\\Users\\zach.larsen\\source\\repos\\advent_1\\input.txt");
+                    StreamReader sr = new StreamReader(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent + "\\test.txt");
                     line= sr.ReadLine();
 
                     while (line != null)
