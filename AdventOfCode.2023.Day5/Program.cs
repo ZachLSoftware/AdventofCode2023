@@ -12,14 +12,15 @@ namespace AdventOfCode._2023.Day5
 
             Day5Solution solution = new Day5Solution(input);
             //solution.setDict();
-            Console.WriteLine(solution.getClosestLocationFromSeed());
+            //Console.WriteLine(solution.getClosestLocationFromSeed());
+            solution.PartTwo();
         }
 
         class Day5Solution
         {
             string input;
             string[] maps;
-            List<double> seeds = new List<double>();
+            Stack<Tuple<double,double>> initseeds = new Stack<Tuple<double,double>>();
             Dictionary<string, string> allMaps = new Dictionary<string, string>();
             Dictionary<string, SortedDictionary<double, Tuple<double, double>>> mapToMap = new Dictionary<string, SortedDictionary<double, Tuple<double, double>>>();
             SortedDictionary<double, Tuple<double,double>> seedToSoil = new SortedDictionary<double, Tuple<double, double>>();
@@ -67,7 +68,21 @@ namespace AdventOfCode._2023.Day5
 
                 }
                 parseMaps();
+                parseSeedList();
+                
 
+            }
+
+            public void PartTwo()
+            {
+                List<Tuple<double, double>> locations = getTranslationRange(initseeds);
+                double min = locations[0].Item1;
+                foreach (Tuple<double, double> location in locations)
+                {
+                    Console.WriteLine(location.Item1);
+                    if (location.Item1 < min) { min = location.Item1; }
+                }
+                Console.WriteLine(min);
             }
 
             public void parseSeedList()
@@ -77,10 +92,7 @@ namespace AdventOfCode._2023.Day5
                 for (int i = 0; i < matches.Count; i+=2) {
                     double start = double.Parse(matches[i].Value);
                     double end = start + double.Parse(matches[i + 1].Value);
-                    for (double j = start; j < end; j++)
-                    {
-                        seeds.Add(j);
-                    }
+                    initseeds.Push(new Tuple<double, double>(start, end));
                 }
             }
 
@@ -130,6 +142,7 @@ namespace AdventOfCode._2023.Day5
                 return closest;
             }
 
+  
             public double getLocationFromSeed(double seed)
             {
                 double location=-1;
@@ -149,6 +162,52 @@ namespace AdventOfCode._2023.Day5
                 location = getTranslation(humidityToLocation, humidity);
 
                 return location;
+            }
+
+            public List<Tuple<double,double>> getTranslationRange(Stack<Tuple<double, double>> seeds)
+            {
+                
+
+                foreach (KeyValuePair<string, SortedDictionary<double, Tuple<double, double>>> map in mapToMap)
+                {
+                    List<Tuple<double, double>> newL = new List<Tuple<double, double>>();
+                    while (seeds.Count > 0)
+                    {
+                        bool brokeLoop = false;
+                        Tuple<double, double> range = seeds.Pop();
+                        foreach (KeyValuePair<double, Tuple<double, double>> kvp in map.Value)
+                        {
+                            double s = range.Item1;
+                            double e = range.Item2;
+                            double a = kvp.Value.Item1;
+                            double b = kvp.Key;
+                            double c = kvp.Value.Item2;
+                            double os = Math.Max(s, b);
+                            double oe = Math.Min(e, b + c);
+                            if (os < oe)
+                            {
+                                newL.Add(new Tuple<double, double>(os - b + a, oe - b + a));
+                                if (os > s)
+                                {
+                                    seeds.Push(new Tuple<double, double>(s, os));
+                                }
+                                if (e > oe)
+                                {
+                                    seeds.Push(new Tuple<double, double>(oe, e));
+                                }
+                                brokeLoop = true;
+                                break;
+                            }
+                        }
+                        if (!brokeLoop)
+                        {
+                            newL.Add(new Tuple<double,double>(range.Item1,range.Item2));
+                        }
+                    }
+                    seeds = new Stack<Tuple<double,double>>(newL);
+                    
+                }
+                return new List<Tuple<double,double>>(seeds);
             }
 
             public double getTranslation(SortedDictionary<double, Tuple<double, double>> dict, double seed)

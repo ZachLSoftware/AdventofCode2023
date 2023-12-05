@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zach.larsen\\source\\repos\\AdventOfCode.2023\\AdventOfCode.2023.Day5\\AdventOfCode.2023.Day5.csproj": {}
+    "C:\\Users\\zacha\\Documents\\adventofcode2023\\AdventofCode2023\\AdventOfCode.2023.Day5\\AdventOfCode.2023.Day5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zach.larsen\\source\\repos\\AdventOfCode.2023\\AdventOfCode.2023.Day5\\AdventOfCode.2023.Day5.csproj": {
+    "C:\\Users\\zacha\\Documents\\adventofcode2023\\AdventofCode2023\\AdventOfCode.2023.Day5\\AdventOfCode.2023.Day5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zach.larsen\\source\\repos\\AdventOfCode.2023\\AdventOfCode.2023.Day5\\AdventOfCode.2023.Day5.csproj",
+        "projectUniqueName": "C:\\Users\\zacha\\Documents\\adventofcode2023\\AdventofCode2023\\AdventOfCode.2023.Day5\\AdventOfCode.2023.Day5.csproj",
         "projectName": "AdventOfCode.2023.Day5",
-        "projectPath": "C:\\Users\\zach.larsen\\source\\repos\\AdventOfCode.2023\\AdventOfCode.2023.Day5\\AdventOfCode.2023.Day5.csproj",
-        "packagesPath": "C:\\Users\\zach.larsen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zach.larsen\\source\\repos\\AdventOfCode.2023\\AdventOfCode.2023.Day5\\obj\\",
+        "projectPath": "C:\\Users\\zacha\\Documents\\adventofcode2023\\AdventofCode2023\\AdventOfCode.2023.Day5\\AdventOfCode.2023.Day5.csproj",
+        "packagesPath": "C:\\Users\\zacha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zacha\\Documents\\adventofcode2023\\AdventofCode2023\\AdventOfCode.2023.Day5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\zach.larsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zacha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

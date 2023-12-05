@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdventOfCode.2023.Day5")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffa09407c4ea3c86bbfec2e43792d36a5bc6b0e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdventOfCode.2023.Day5")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdventOfCode.2023.Day5")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
