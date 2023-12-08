@@ -1,0 +1,15 @@
+C:\Users\zach.larsen\source\repos\AdventOfCode.2023\AdventOfCode.2023.Day8\bin\Debug\net8.0\AdventOfCode.2023.Day8.exe
+C:\Users\zach.larsen\source\repos\AdventOfCode.2023\AdventOfCode.2023.Day8\bin\Debug\net8.0\AdventOfCode.2023.Day8.deps.json
+C:\Users\zach.larsen\source\repos\AdventOfCode.2023\AdventOfCode.2023.Day8\bin\Debug\net8.0\AdventOfCode.2023.Day8.runtimeconfig.json
+C:\Users\zach.larsen\source\repos\AdventOfCode.2023\AdventOfCode.2023.Day8\bin\Debug\net8.0\AdventOfCode.2023.Day8.dll
+C:\Users\zach.larsen\source\repos\AdventOfCode.2023\AdventOfCode.2023.Day8\bin\Debug\net8.0\AdventOfCode.2023.Day8.pdb
+C:\Users\zach.larsen\source\repos\AdventOfCode.2023\AdventOfCode.2023.Day8\obj\Debug\net8.0\AdventOfCode.2023.Day8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zach.larsen\source\repos\AdventOfCode.2023\AdventOfCode.2023.Day8\obj\Debug\net8.0\AdventOfCode.2023.Day8.AssemblyInfoInputs.cache
+C:\Users\zach.larsen\source\repos\AdventOfCode.2023\AdventOfCode.2023.Day8\obj\Debug\net8.0\AdventOfCode.2023.Day8.AssemblyInfo.cs
+C:\Users\zach.larsen\source\repos\AdventOfCode.2023\AdventOfCode.2023.Day8\obj\Debug\net8.0\AdventOfCode.2023.Day8.csproj.CoreCompileInputs.cache
+C:\Users\zach.larsen\source\repos\AdventOfCode.2023\AdventOfCode.2023.Day8\obj\Debug\net8.0\AdventOfCode.2023.Day8.sourcelink.json
+C:\Users\zach.larsen\source\repos\AdventOfCode.2023\AdventOfCode.2023.Day8\obj\Debug\net8.0\AdventOfCode.2023.Day8.dll
+C:\Users\zach.larsen\source\repos\AdventOfCode.2023\AdventOfCode.2023.Day8\obj\Debug\net8.0\refint\AdventOfCode.2023.Day8.dll
+C:\Users\zach.larsen\source\repos\AdventOfCode.2023\AdventOfCode.2023.Day8\obj\Debug\net8.0\AdventOfCode.2023.Day8.pdb
+C:\Users\zach.larsen\source\repos\AdventOfCode.2023\AdventOfCode.2023.Day8\obj\Debug\net8.0\AdventOfCode.2023.Day8.genruntimeconfig.cache
+C:\Users\zach.larsen\source\repos\AdventOfCode.2023\AdventOfCode.2023.Day8\obj\Debug\net8.0\ref\AdventOfCode.2023.Day8.dll
